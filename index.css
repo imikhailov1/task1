@@ -1,0 +1,22 @@
+.card-wrapper {
+    position: relative;
+}
+
+.card-wrapper__card {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+
+.card-wrapper__card:first-child,
+.card-wrapper__card:last-child {
+    transform-origin: 50% 100% 0;
+}
+
+.card-wrapper__card:first-child {
+    transform: rotate(-15deg);
+}
+
+.card-wrapper__card:last-child {
+    transform: rotate(15deg);
+}
